@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|c:\\users\\ivani\\game\\newoperatorcrane\\crane operator\\assets\\scripts\\fadescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fadescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|c:\\users\\ivani\\game\\newoperatorcrane\\crane operator\\assets\\scripts\\buildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FadeScreen.cs",
+              "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\FadeScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FadeScreen.cs",
+              "ToolTip": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\FadeScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FadeScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T21:09:09.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BuilderController.cs",
               "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\BuilderController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BuilderController.cs",
               "ToolTip": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\BuilderController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BuilderController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABSwAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T20:19:48.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cargo.cs",
               "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\Cargo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cargo.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HookController.cs",
               "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\HookController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HookController.cs",
