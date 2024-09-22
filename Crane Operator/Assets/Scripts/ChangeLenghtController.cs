@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CraneController))]
 public class ChangeLenghtController : MonoBehaviour
@@ -11,21 +12,14 @@ public class ChangeLenghtController : MonoBehaviour
     [SerializeField] private Transform startPosition;
 
     private CraneController craneController; // контроллер
+    private float moveDirection;
 
-
-    // Start is called before the first frame update
-    void Start()
+    public void SetLenght(InputAction.CallbackContext context)
     {
-        //startPosition = objectMove.transform;
-        craneController = GetComponent<CraneController>();
+        moveDirection = context.ReadValue<Vector2>().y;
     }
-
-    // Update is called once per frame
     void Update()
     {
-        float moveDirection = craneController.movement.y;
-
-
         //MoveDirection < 0 - Движение в перед
         //MoveDirection > 0 - Дивжение назад
         

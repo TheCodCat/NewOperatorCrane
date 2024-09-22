@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CraneController))]
 public class RotationController : MonoBehaviour
@@ -8,8 +9,9 @@ public class RotationController : MonoBehaviour
     [SerializeField] Transform objectRotate; // Объект который будем вращать
     [SerializeField] Transform axisRotate; // Точка во круг которой будет вращение
     [SerializeField] float rotationSpeed = 1; //Скорость вращения
+    float rotateDirection;
 
-    private CraneController craneController; // контроллер
+	private CraneController craneController; // контроллер
 
 
     // Start is called before the first frame update
@@ -17,10 +19,13 @@ public class RotationController : MonoBehaviour
     {
         craneController = GetComponent<CraneController>();
     }
+    public void SetMovoment(InputAction.CallbackContext context)
+    {
+        rotateDirection = context.ReadValue<Vector2>().x;
 
+    }
     private void Update()
     {
-        float rotateDirection = craneController.movement.x;
         //objectRotate.RotateAround(axisRotate.position,new Vector3(0,rotateDirection,0), rotationSpeed * rotateDirection);
         if (rotateDirection > 0)
         {
