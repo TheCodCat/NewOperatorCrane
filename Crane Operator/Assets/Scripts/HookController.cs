@@ -5,13 +5,21 @@ using UnityEngine.InputSystem;
 
 public class HookController : MonoBehaviour
 {
-    [SerializeField] private CraneController controller;
+    public static HookController instance;
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private ConfigurableJoint joint;
     
     public Cargo collisionGO;
     private bool bumper;
 
+	private void Awake()
+	{
+        if (instance == null)
+        {
+            instance = this;     
+        }
+        else Destroy(instance.gameObject);
+	}
 
 	public void SetBumper(InputAction.CallbackContext context)
     {
@@ -19,9 +27,6 @@ public class HookController : MonoBehaviour
         {
 			bumper = !bumper;
 		}
-    }
-    private void Update()
-    {
 
         if (collisionGO is not null)
         {
@@ -40,7 +45,10 @@ public class HookController : MonoBehaviour
             }
         }
     }
-
+    public bool GetBumper()
+    {
+        return bumper;
+    }
     private void Connetct(Cargo objectToConnetct)
     {
         Debug.Log("Connetct");
@@ -48,7 +56,6 @@ public class HookController : MonoBehaviour
         joint.connectedBody = objectToConnetct.GetRigidbody();
         joint.connectedAnchor = collisionGO.grabPoint.localPosition;
     }
-
     private void Disconnect()
     {
 		joint.connectedBody.GetComponent<Cargo>().isGrabbing = false;

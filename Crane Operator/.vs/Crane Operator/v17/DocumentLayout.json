@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\assets\\scripts\\hookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|c:\\users\\ivani\\game\\newoperatorcrane\\crane operator\\assets\\scripts\\cranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|c:\\users\\ivani\\game\\newoperatorcrane\\crane operator\\assets\\scripts\\hookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HookController.cs",
               "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\HookController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HookController.cs",
               "ToolTip": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\HookController.cs",
               "RelativeToolTip": "Assets\\Scripts\\HookController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBEAAAA0AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwDEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T13:06:57.751Z",
+              "WhenOpened": "2024-09-22T15:06:50.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CraneController.cs",
+              "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\CraneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CraneController.cs",
+              "ToolTip": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\CraneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CraneController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwB0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:15:18.579Z",
               "EditorCaption": ""
             }
           ]
