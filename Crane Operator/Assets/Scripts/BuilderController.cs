@@ -110,6 +110,7 @@ public class BuilderController : MonoBehaviour
     {
         foreach (var cargo in cargoInArea)
         {
+            Debug.Log(cargo.name);
             Destroy(cargo);
         }
         cargoInArea = new();
@@ -142,6 +143,7 @@ public class BuilderController : MonoBehaviour
     {
         if (other.TryGetComponent<Cargo>(out var cargo))
         {
+            Debug.LogError(cargo);
             isCargo = true;
             currentCargo = cargo;
         }

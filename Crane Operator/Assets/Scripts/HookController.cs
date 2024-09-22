@@ -27,7 +27,7 @@ public class HookController : MonoBehaviour
                 Connetct(collisionGO);
             }
 
-            if (controller.grip > 0 && joint.connectedBody is not null)
+            if (!controller.bumper && joint.connectedBody is not null)
             {
                 Debug.Log("Disconnect");
                 Disconnect();
@@ -68,8 +68,8 @@ public class HookController : MonoBehaviour
         {
             Debug.Log("enter grabble");
 
-            if(other.TryGetComponent(out Cargo cargo))
-                collisionGO = cargo;
+            if(other.TryGetComponent(out GrapTrigger cargo))
+                collisionGO = cargo.myCargo;
         }
     }
 

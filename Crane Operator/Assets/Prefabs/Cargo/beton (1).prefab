@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 715384804148560972}
   - component: {fileID: 715384804148560973}
   - component: {fileID: 157825705929331743}
-  - component: {fileID: 5982217653038151322}
   m_Layer: 3
   m_Name: beton (1)
   m_TagString: grabble
@@ -156,27 +155,6 @@ MonoBehaviour:
   isGrabbing: 0
   canGrab: 1
   _rb: {fileID: 715384804148560972}
---- !u!135 &5982217653038151322
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372927275327420697}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.01
-  m_Center: {x: -0.0000040046866, y: 0.00000026309857, z: 0.12262809}
 --- !u!1 &4093945899703719229
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,6 +164,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7685232548336363211}
+  - component: {fileID: 9184666119109491798}
+  - component: {fileID: 3052044086135505770}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -208,3 +188,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1037859593113412515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &9184666119109491798
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093945899703719229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.01
+  m_Center: {x: -0.0000040046866, y: 0, z: -0.23}
+--- !u!114 &3052044086135505770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093945899703719229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e477b0609cafc48a37bb7a2fbd2481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _myCargo: {fileID: 157825705929331743}

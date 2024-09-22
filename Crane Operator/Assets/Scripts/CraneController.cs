@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +21,7 @@ public class CraneController : MonoBehaviour
 
     [SerializeField] private InputActionReference _kranInput;
     [SerializeField] private InputActionReference _LenghtRopeInput;
-    public InputActionReference _interactable;
+    [SerializeField] private InputActionReference _interactable;
  
     //[SerializeField] private SteamVR_Action_Vector2 moveAction = SteamVR_Input.GetAction<SteamVR_Action_Vector2>("platformer", "Move");
     //[SerializeField] private SteamVR_Action_Single gripAction = SteamVR_Input.GetAction<SteamVR_Action_Single>("Squeeze");
@@ -41,10 +42,15 @@ public class CraneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(_kranInput != null)
             movement = _kranInput.action.ReadValue<Vector2>();
+
 		if (_LenghtRopeInput != null)
 			grip = _LenghtRopeInput.action.ReadValue<Vector2>().y;
+
+        if (_interactable != null)
+            bumper = Convert.ToBoolean(_interactable.action.ReadValue<float>());
         /*if (interactable.attachedToHand)
         {
             hand = interactable.attachedToHand.handType;
