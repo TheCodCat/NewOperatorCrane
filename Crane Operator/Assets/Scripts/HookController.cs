@@ -54,6 +54,7 @@ public class HookController : MonoBehaviour
         Debug.Log("Connetct");
         objectToConnetct.isGrabbing = true;
         joint.connectedBody = objectToConnetct.GetRigidbody();
+        objectToConnetct.grabPoint.position = joint.transform.position;
         joint.connectedAnchor = collisionGO.grabPoint.localPosition;
     }
     private void Disconnect()
