@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "3d1a3578-e926-42dd-9f59-d1c29bbd5c48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(pressPoint=2)",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -375,12 +384,12 @@
                 },
                 {
                     "name": "",
-                    "id": "b9d9f2cb-1b1f-4b39-a4aa-4606e32d6d3a",
-                    "path": "<ViveController>{LeftHand}/select",
+                    "id": "34ad152d-fea5-4a45-98a7-a191dc0e97e0",
+                    "path": "<ViveController>{LeftHand}/gripPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "Restart",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
