@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\",
+  "WorkspaceRootPath": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|c:\\users\\ivani\\game\\newoperatorcrane\\crane operator\\assets\\scripts\\cranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|e:\\unity\\newoperatorcrane\\crane operator\\assets\\scripts\\changelenghtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changelenghtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|c:\\users\\ivani\\game\\newoperatorcrane\\crane operator\\assets\\scripts\\hookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|e:\\unity\\newoperatorcrane\\crane operator\\assets\\scripts\\rotationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|e:\\unity\\newoperatorcrane\\crane operator\\assets\\scripts\\chagelenghtrope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F68EAA2-CDC3-76EB-C624-11D9D305DCEA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chagelenghtrope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HookController.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\HookController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HookController.cs",
-              "ToolTip": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\HookController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HookController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAiwDEAAAAWAAAA",
+              "DocumentIndex": 0,
+              "Title": "ChangeLenghtController.cs",
+              "DocumentMoniker": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\ChangeLenghtController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeLenghtController.cs",
+              "ToolTip": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\ChangeLenghtController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChangeLenghtController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:06:50.608Z",
+              "WhenOpened": "2024-09-24T08:11:41.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CraneController.cs",
-              "DocumentMoniker": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\CraneController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CraneController.cs",
-              "ToolTip": "C:\\Users\\ivani\\Game\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\CraneController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CraneController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAiwB0AAABEAAAA",
+              "DocumentIndex": 1,
+              "Title": "RotationController.cs",
+              "DocumentMoniker": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\RotationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotationController.cs",
+              "ToolTip": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\RotationController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:15:18.579Z",
+              "WhenOpened": "2024-09-24T08:05:55.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChageLenghtRope.cs",
+              "DocumentMoniker": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\ChageLenghtRope.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChageLenghtRope.cs",
+              "ToolTip": "E:\\Unity\\NewOperatorCrane\\Crane Operator\\Assets\\Scripts\\ChageLenghtRope.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChageLenghtRope.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:02:27.081Z",
               "EditorCaption": ""
             }
           ]

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Valve.VR;
 
 [RequireComponent(typeof(CraneController))]
 public class ChageLenghtRope : MonoBehaviour
@@ -24,24 +23,7 @@ public class ChageLenghtRope : MonoBehaviour
     }
     private void Update()
     {
-        int direction = 0;
-
-            if (_grip > 0)
-                direction = 1;
-            else if (_grip < 0)
-                direction = -1;
-            else
-                direction = 0;
-
-
-        if (direction == 1)
-        {
-            controller.ChangeLenght(speed, direction);
-        }
-            
-        else if (direction == -1)
-        {
-            controller.ChangeLenght(speed, direction);
-        }
+        if (_grip != 0)
+            controller.ChangeLenght(speed, (int)_grip);
     }
 }
