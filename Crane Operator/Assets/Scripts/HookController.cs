@@ -59,8 +59,9 @@ public class HookController : MonoBehaviour
     }
     private void Disconnect()
     {
-		joint.connectedBody.GetComponent<Cargo>().isGrabbing = false;
+        collisionGO.isGrabbing = false;
         joint.connectedBody = null;
+        collisionGO.SetDisable();
         collisionGO = null;
     }
 
@@ -71,7 +72,10 @@ public class HookController : MonoBehaviour
             Debug.Log("enter grabble");
 
             if(other.TryGetComponent(out GrapTrigger cargo))
+            {
                 collisionGO = cargo.myCargo;
+                collisionGO.SetActive();
+            }
         }
     }
 
@@ -80,6 +84,7 @@ public class HookController : MonoBehaviour
         if (other.tag == "grabble")
         {
             Debug.Log("exit grabble");
+            collisionGO.SetDisable();
             collisionGO = null;
         }
     }
