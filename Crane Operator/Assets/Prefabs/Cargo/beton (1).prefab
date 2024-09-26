@@ -155,7 +155,8 @@ MonoBehaviour:
   isGrabbing: 0
   canGrab: 1
   _rb: {fileID: 715384804148560972}
-  _renderer: {fileID: 2174142483068246220}
+  _renderers:
+  - {fileID: 2174142483068246220}
 --- !u!1 &4093945899703719229
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +184,7 @@ Transform:
   m_GameObject: {fileID: 4093945899703719229}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0.327}
+  m_LocalPosition: {x: 0, y: 0.0000009735536, z: 0.42181045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

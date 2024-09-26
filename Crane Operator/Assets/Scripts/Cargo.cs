@@ -8,7 +8,7 @@ public class Cargo : MonoBehaviour
     [SerializeField] public bool isGrabbing;
     [SerializeField] public bool canGrab = true;
     [SerializeField] private Rigidbody _rb;
-    [SerializeField] private Renderer _renderer;
+    [SerializeField] private Renderer[] _renderers;
 
     public Rigidbody GetRigidbody()
     {
@@ -16,16 +16,22 @@ public class Cargo : MonoBehaviour
     }
     public void SetActive()
     {
-        foreach (var item in _renderer.materials)
+        foreach (var _renderer in _renderers)
         {
-            item.EnableKeyword("_EMISSION");
+            foreach (var item in _renderer.materials)
+            {
+                item.EnableKeyword("_EMISSION");  
+            }
         }
     }
     public void SetDisable()
     {
-        foreach (var item in _renderer.materials)
+        foreach (var _renderer in _renderers)
         {
-            item.DisableKeyword("_EMISSION");
+            foreach (var item in _renderer.materials)
+            {
+                item.DisableKeyword("_EMISSION");          
+            }
         }
     }
 }
