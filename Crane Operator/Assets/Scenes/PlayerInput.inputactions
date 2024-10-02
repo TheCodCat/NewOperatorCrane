@@ -385,7 +385,7 @@
                 {
                     "name": "",
                     "id": "34ad152d-fea5-4a45-98a7-a191dc0e97e0",
-                    "path": "<ViveController>{LeftHand}/gripPressed",
+                    "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
